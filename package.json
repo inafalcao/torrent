@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel --presets es2015 scr/index.js -o build/index.bundle.js",
-    "start": "webpack-dev-server --hot --inline",
+    "start": "webpack-dev-server --hot --inline --open",
     "watch": "webpack --watch"
   },
   "keywords": [],
